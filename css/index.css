@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-white-color: #ffffff;
+  --main-dark-color: #2679f6;
+  --main-blue-color: #ffffff;
+  --main-lg-font-size: 4.5rem;
+  --main-transition: 0.3s linear;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white-color);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*========================== MAIN ==========================*/
+.main {
+  height: 55em;
+  background: url(../assets/images/bg1.jpg) no-repeat;
+  background-size: cover;
+
+  /* Layout */
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 80px auto;
+}
+
+/* Navbar */
+.main .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Menu Container */
+.main .nav-bar .menu-container {
+  display: flex;
+}
+
+.main .nav-bar .menu-container li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Body */
+.main .body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .body-container .hero {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Text Container */
+.main .body-container .hero .txt-container {
+  align-items: flex-start;
+  position: relative;
+  top: -420px;
+  z-index: 2;
+}
+.main .body-container .hero .txt-container h3 {
+  color: var(--main-white-color);
+  font-size: var(--main-lg-font-size);
+}
+.main .body-container .hero .txt-container p {
+  color: var(--main-white-color);
+}
+.main .body-container .hero .txt-container button {
+  padding: 8px;
+  width: 110px;
+  background: none;
+  border: 2px var(--main-dark-color) solid;
+  border-radius: 7px;
+  color: var(--main-white-color);
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+.main .body-container .hero .txt-container button:hover {
+  background: var(--main-dark-color);
+  transition: var(--main-transition);
+}
+
+/* Img Container */
+.main .body-container .hero .img-container {
+}
+.main .body-container .hero .img-container img {
+  width: 340px;
+  position: relative;
+  right: 120px;
+  top: 70px;
+  z-index: 1;
+}
+/* Borders */
+.main .body-container .hero .img-container .border-portrait {
+  position: relative;
+  top: -420px;
+  right: 90px;
+  height: 460px;
+  width: 365px;
+  border: 2px var(--main-white-color) solid;
+}
+.main .body-container .hero .img-container .border-landscape {
+  position: relative;
+  top: -670px;
+  right: 40px;
+  width: 500px;
+  height: 345px;
+  border: 2px var(--main-white-color) solid;
+}
+
+/* Borders End */
+/*========================== ABOUT =========================*/
+.about {
+  height: 55em;
+  background: url(../assets/images/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+.about .about-title {
+  color: var(--main-white-color);
+  text-align: center;
+}
+.about .about-title .main-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*======================== PROJECTS ========================*/
+.projects {
+  height: 55em;
+  background: url(../assets/images/bg3.jpg) no-repeat;
+  background-size: cover;
+}
+/*======================== CONTACTS ========================*/
+.contact {
+  height: 55em;
+  background: url(../assets/images/bg4.jpg) no-repeat;
+  background-size: cover;
+}
