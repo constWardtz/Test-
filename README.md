@@ -1,6 +1,6 @@
 # Sensei Portfolio Website
- collaboration website[not yet done]
- Visit [constWardtz](https://www.facebook.com/constWardtz/) Facebook page 
+- collaboration website 
+- Visit [constWardtz](https://www.facebook.com/constWardtz/) Facebook page 
   
 ## How to Clone ?  
 ```
