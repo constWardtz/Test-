@@ -1,5 +1,5 @@
 # Sensei Portfolio Website
-[Landing page](./assets/Readme/front.JPG)
+<img src="../collab001/assets/Readme/front.JPG">
 
 - collaboration website[not yet done]
 ## How to Clone ?  
