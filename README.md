@@ -1,7 +1,7 @@
 # Sensei Portfolio Website
-<img src="../collab001/assets/Readme/front.JPG">
-
 - collaboration website[not yet done]
+[constWardtz](https://www.facebook.com/constWardtz/)
+  
 ## How to Clone ?  
 ```
   git init
