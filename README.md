@@ -1,7 +1,15 @@
-# Test-
-for collaboration .. 
+# Sensei Portfolio Website
+For collaboration.
+Not yet done .... 
 
-## Sample Code 
+## How to Clone ?  
 ```
-    Code Here ..
+  git init
+  git clone https://github.com/constWardtz/Sensei-Portfolio-Website-.git
 ```
+
+### Collaborators 
+ - constWardtz (Edward)
+ - Kramdroid Tech (Mark)
+ - Akashi (Daniel)
+
