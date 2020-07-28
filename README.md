@@ -1,7 +1,7 @@
 # Sensei Portfolio Website
-For collaboration.
-Not yet done .... 
+[Landing page](./assets/Readme/front.JPG)
 
+- collaboration website[not yet done]
 ## How to Clone ?  
 ```
   git init
